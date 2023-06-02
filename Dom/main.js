@@ -31,14 +31,13 @@ console.log([seccion])
 //                         <p>modulo:${mentor.modulo}</p>
 //                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure iste earum adipisci deleniti in sint.</p>
 //                     </article>`
-
 // }
 
 function crearPlantilla(objeto){
-    return `<article class="border">
+    return `<article class="border p-2">
                 <h5>${objeto.nombre}</h5>
-                <img src="${objeto.imagen}" alt="img" class="img">
-                <p>modulo:${objeto.modulo}</p>
+                <img src="${objeto.imagen}" alt="img" class="img mb-2">
+                <p>modulo: ${objeto.modulo}</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure iste earum adipisci deleniti in sint.</p>
             </article>`
 }
